@@ -1,0 +1,140 @@
+body {
+		margin:0;
+		padding:0;
+		background-color:#EBE7E0;
+	}
+	
+	#container {
+		position:absolute;
+		margin:0 auto;
+		margin-top:10px;
+		margin-left:362px;
+		height:640px;
+		width:640px;
+	}
+	
+	.box {	
+		float:left;
+		width:40px;
+		height:40px;
+		outline:1px solid #7F8285;	
+		background-color:#44749D;
+	}
+	
+	#buttonContainer {
+		position:absolute;
+		margin:20px 0 0 20px;
+		width:320px;
+		height:244px;
+		background-color:#44749D;
+		border-radius:30px;
+	}
+	
+	#defaultGen {
+		padding:5px 81px 5px 82px;	
+		margin:22px 0 0 22px;
+		font-size:1em;
+		background-color:#C6D4E1;
+		border-radius:10px;
+	}
+	
+	#choose {
+		padding:5px 62px 5px 62px;
+		margin:20px 0 0 22px;
+		font-size:1em;
+		background-color:#C6D4E1;
+		border-radius:10px;
+	}
+	
+	#toggleBorders {
+		padding:5px 77px 5px 77px;
+		margin:20px 0 0 22px;
+		font-size:1em;
+		background-color:#C6D4E1;
+		border-radius:10px;
+	}
+	
+	.borders {
+		outline:none;
+	}
+	
+	.color {
+		margin:15px 0 0 43px;
+	}
+	
+	#colorContainer {
+		position:absolute;
+		margin:380px 0 0 20px;
+		width:320px;
+		height:250px;
+		background-color:#44749D;
+		border-radius:30px;
+	}
+	
+	#togglePaint {
+		padding:5px 87px 5px 87px;
+		margin:20px 0 0 22px;
+		font-size:1em;	
+		background-color:#C6D4E1;
+		border-radius:10px;
+	}
+	
+	#infoContainer {
+		position:absolute;
+		width:320px;
+		height:612px;
+		margin:0;
+		margin:17px 0 0 1025px;
+		background-color:#44749D;
+		border-radius:30px;
+	}
+	
+	#colorp {
+		margin:0;
+		margin:17px 0 0 17px;
+	}
+	
+	#paintOn {
+		margin:30px 5px 0 40px;
+	}
+	
+	#paintOff {
+		margin:30px 5px 0 75px
+	}
+	
+	#listChoices {
+		font-size:0.9em;
+		float:left;
+		margin:360px 0 0 13px;
+		padding:5px;
+		padding-left:11px;
+		padding-right:11px;
+		border-radius:10px;
+		background-color:#C6D4E1
+	}
+	
+	#clearList {
+		font-size:0.9em;
+		float:left;
+		margin:10px 0 0 13px;
+		padding:5px;
+		border-radius:10px;
+		background-color:#C6D4E1
+	}
+	
+	#arrayP {
+		position:absolute;
+		margin:360px 20px 0 210px;
+	}
+	
+	h1 {
+		position:absolute;
+		margin-left:28px;
+	}
+	
+	ul {
+		position:absolute;
+		list-style-type:square;
+		padding-right:20px;
+		margin-top:60px;
+	}
