@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <title>16 Bit Doodler - Alex Brankin</title>
+	
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="jscolor/jscolor.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="16bitdoodler.css">
+    
+</head>
+	
+<body>
+
+	<div id="buttonContainer">
+
+		<button type = "button" id="defaultGen">Generate grid</button>
+	
+		<button type = "button" id="choose">Choose your boxes</button>
+	
+		<button type="button" id="toggleBorders">Toggle borders</button>
+		
+		<form>
+		
+			<input type="radio" name="togglePaint" id="paintOn" value="on"checked>Paint on
+			
+			<input type="radio" name="togglePaint" id="paintOff" value="off">Paint off
+		
+		</form>
+		
+	</div>
+	
+	<div id="colorContainer">
+	
+		<p id="colorp">Click the below input to show colour palette.</p>
+			
+		<input class="color">
+	
+	</div>
+		
+	<div id="container"></div>
+		
+	<div id="infoContainer">
+		
+		<h1>Game Information</h1>
+		
+		<ul>
+		
+			<li><h4>To switch between paint on and paint off without using your mouse, simply press the TAB key until the "Paint on" button is highlighted, then use the &gt; and &lt; arrow keys to cycle between options.</h4></li>
+			<li><h4>You can list upto 12 of your colour choices using the button below.</h4></li>
+			<li><h4>Enjoy :)</h4></li>
+		
+		</ul>
+	
+		<button type="button" id="listChoices">List your selection/s</button>
+		
+		<button type="button" id="clearList">Clear your selection/s</button>	
+	
+		<p id="arrayP"></p>
+
+	</div>
+		
+	<script src="16bitdoodler.js"></script>
+		
+</body>
+</html>
